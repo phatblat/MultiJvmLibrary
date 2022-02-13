@@ -12,6 +12,8 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "SampleApp"
-include ':app'
-include ':androidlib'
+
+rootProject.name = "MultiJvm"
+
+include(":androidapp")
+include(":androidlib")
