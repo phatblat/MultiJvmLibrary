@@ -57,11 +57,14 @@ publishing {
     }
 }
 
-afterEvaluate {
-    val publishToMavenLocal by tasks.getting
-    val assembleRelease by tasks.getting
-
-    publishToMavenLocal.dependsOn(assembleRelease)
+tasks {
+    val publishToMavenLocal by existing
+    publishToMavenLocal {
+        // Using a Gradle Provider
+        dependsOn(provider {
+            filter { task -> task.name.startsWith("assembleRelease") }
+        })
+    }
 }
 
 //signing {
