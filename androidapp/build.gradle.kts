@@ -52,6 +52,11 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+
+    lint {
+        checkDependencies = true
+        disable += "UnusedResources"
+    }
 }
 
 dependencies {
