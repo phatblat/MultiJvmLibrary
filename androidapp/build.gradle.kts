@@ -60,6 +60,9 @@ android {
 }
 
 dependencies {
+//    implementation(project(mapOf("path" to ":androidlib")))
+    implementation(project(":androidlib"))
+
     implementation("androidx.core:core-ktx:1.7.0")
     implementation("androidx.activity:activity-compose:1.4.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.4.1")
