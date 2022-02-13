@@ -1,4 +1,4 @@
-package at.phatbl.androidlib
+package at.phatbl.multijvm.androidlib
 
 import org.junit.Test
 

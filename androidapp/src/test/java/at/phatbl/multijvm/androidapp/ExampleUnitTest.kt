@@ -1,7 +1,6 @@
 package at.phatbl.multijvm.androidapp
 
 import org.junit.Test
-
 import org.junit.Assert.*
 
 /**

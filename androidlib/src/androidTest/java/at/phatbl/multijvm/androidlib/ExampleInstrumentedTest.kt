@@ -1,4 +1,4 @@
-package at.phatbl.androidlib
+package at.phatbl.multijvm.androidlib
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("at.phatbl.androidlib.test", appContext.packageName)
+        assertEquals("at.phatbl.multijvm.androidlib.test", appContext.packageName)
     }
 }
