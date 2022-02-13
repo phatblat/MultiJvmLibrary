@@ -1,4 +1,4 @@
-package at.phatbl.sampleapp.ui.theme
+package at.phatbl.multijvm.androidapp.ui.theme
 
 import androidx.compose.material.Typography
 import androidx.compose.ui.text.TextStyle

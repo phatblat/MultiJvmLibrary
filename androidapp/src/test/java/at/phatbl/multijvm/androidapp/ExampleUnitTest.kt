@@ -1,4 +1,4 @@
-package at.phatbl.sampleapp
+package at.phatbl.multijvm.androidapp
 
 import org.junit.Test
 

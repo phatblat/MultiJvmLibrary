@@ -1,4 +1,4 @@
-package at.phatbl.sampleapp.ui.theme
+package at.phatbl.multijvm.androidapp.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

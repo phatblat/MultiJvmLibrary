@@ -1,4 +1,4 @@
-package at.phatbl.sampleapp
+package at.phatbl.multijvm.androidapp
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
