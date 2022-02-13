@@ -18,3 +18,4 @@ rootProject.name = "MultiJvm"
 
 include(":androidapp")
 include(":androidlib")
+include(":javalib")
